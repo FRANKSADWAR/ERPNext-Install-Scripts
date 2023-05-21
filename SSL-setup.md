@@ -51,7 +51,8 @@ sudo nestat -lnp
 sudo kill -9 $(sudo lsof -t -i:80)
 ```
 
-Simulate renewal for the SSL certificate; 
+> Simulate renewal for the SSL certificate; 
 
-
+```
 sudo certbot -a nginx renew --dry-run 
+```
